@@ -1,0 +1,65 @@
+:root {
+  font-size: 62.5%;
+}
+
+/* wild card, takes all elements */
+/* soft CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid orangered;
+}
+
+.section-2 {
+  width: 65%;
+  margin: 0 auto;
+}
+article {
+  width: 65%;
+  display: inline-block;
+}
+
+aside {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  border-left: 2px solid chartreuse;
+  border-bottom: 2px solid chartreuse;
+}
+
+.float-object {
+  height: 8rem;
+  width: 8rem;
+  background-color: hotpink;
+  float: left;
+  /* margin-right: 1rem;
+  margin-bottom: 1rem; */
+  margin: 0 1rem 1rem 0;
+}
+
+.section-5 p {
+  height: 6rem;
+  width: 9rem;
+  border: 2px solid crimson;
+  margin: 0 auto;
+  overflow: scroll;
+}
+
+footer {
+  background-color: hotpink;
+  /* position: fixed;
+  width: 100%; */
+  height: 2rem;
+  bottom: 0;
+  text-align: center;
+}
+/* mobile view */
+@media (max-width: 599px) {
+  article {
+    display: block;
+  }
+  aside {
+    display: block;
+  }
+}
